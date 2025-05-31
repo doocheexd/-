@@ -84,6 +84,8 @@ namespace 抽卡模擬器
             button1.Enabled = true;  // 恢復按鈕可用
         }
 
+        // 53行至84行，使用了AI給的範例，改成了符合我們程式的版本，實現了用文字呈現抽卡動畫
+
         // 切換到標準版模式
         private void 標準版ToolStripMenuItem_Click(object sender, EventArgs e)
         {

@@ -18,7 +18,7 @@ namespace 抽卡模擬器
             string result;
             if (pityCounter >= 10)
             {
-                result = characters[5] + "（觸發保底）"; // 第 10 抽保底出超稀有
+                result = characters[5] + "（觸發保底）"; // 第10抽保底，必定出超稀有
                 pityCounter = 0; // 抽中後重置
             }
             else
@@ -31,7 +31,7 @@ namespace 抽卡模擬器
                 else
                 {
                     result = characters[5];                    // 超稀有
-                    pityCounter = 0;                            // 中超稀有也重置保底
+                    pityCounter = 0;                           // 中超稀有重置保底
                 }
             }
 
